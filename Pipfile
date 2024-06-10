@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pytumblr = "*"
 pytest = "*"
+setuptools = "*"
 
 [dev-packages]
 twine = "*"
