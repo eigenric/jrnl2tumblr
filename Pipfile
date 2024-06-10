@@ -10,6 +10,7 @@ pytest = "*"
 [dev-packages]
 twine = "*"
 keyring = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.12"
