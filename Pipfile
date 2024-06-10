@@ -8,6 +8,8 @@ pytumblr = "*"
 pytest = "*"
 
 [dev-packages]
+twine = "*"
+keyring = "*"
 
 [requires]
 python_version = "3.12"
