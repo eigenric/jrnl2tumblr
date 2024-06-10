@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
-from jrnl2tumblr.tumblr import create_tumblr_client, post_entries_to_tumblr
+from ..jrnl2tumblr.tumblr import create_tumblr_client, post_entries_to_tumblr
 
 class TestTumblr(unittest.TestCase):
     def setUp(self):
