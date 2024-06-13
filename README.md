@@ -1,5 +1,10 @@
 # jrnl2tumblr
 
+![PyPI - Version](https://img.shields.io/pypi/v/jrnl2tumblr)
+[![PyPI Supported Python Versions](https://img.shields.io/pypi/pyversions/jrnl2tumblr.svg)](https://pypi.python.org/pypi/jrnl2tumblr)
+[![python-package](https://github.com/eigenric/jrnl2tumblr/actions/workflows/python-package.yml/badge.svg)](https://github.com/eigenric/jrnl2tumblr/actions/workflows/python-package.yml)
+
+
 ## Description
 
 `jrnl2tumblr` is a tool that allows you to import journal entries from [jrnl](https://jrnl.sh/) to your Tumblr blog.
