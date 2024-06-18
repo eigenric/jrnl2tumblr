@@ -1,4 +1,5 @@
 import pytumblr
+import time
 
 def create_tumblr_client(consumer_key, consumer_secret, oauth_token, oauth_secret):
     client = pytumblr.TumblrRestClient(
@@ -24,5 +25,5 @@ def post_entries_to_tumblr(entries, client, blog_name):
             tags=tags,
             date=date
         )
-        import time; time.sleep(1)
+        time.sleep(3)
         print(f"Published entry: {title}")
