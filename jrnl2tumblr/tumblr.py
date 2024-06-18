@@ -15,11 +15,14 @@ def post_entries_to_tumblr(entries, client, blog_name):
         body = entry['body']
         tags = entry.get('tags', [])
 
+        date = entry.get('date')
         client.create_text(
             blog_name,
             state="published",
             title=title,
             body=body,
-            tags=tags
+            tags=tags,
+            date=date
         )
+        import time; time.sleep(1)
         print(f"Published entry: {title}")
